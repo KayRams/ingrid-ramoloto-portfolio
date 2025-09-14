@@ -2,18 +2,22 @@
   font-size: 16px;
   font-family: Zapfino, cursive;
   font-weight: bold;
-  color: rgb(18, 18, 118);
+  color: black;
 }
 .navbar-nav .nav-link {
-  color: rgb(18, 18, 118);
+  color: black;
   font-size: 16px;
   font-weight: bold;
 }
-.navbar-nav .nav-link:hover {
-  color: #4caf50;
+.navbar-nav .nav-link-active {
+  color: rgb(195, 24, 93);
+  font-weight: bold;
 }
-
+.navbar-nav .nav-link:hover {
+  color: rgb(195, 24, 93);
+  font-weight: bold;
+}
 .bi {
   font-size: 16px;
-  color: #4caf50;
+  color: rgb(195, 24, 93);
 }

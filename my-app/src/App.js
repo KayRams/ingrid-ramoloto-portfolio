@@ -28,33 +28,32 @@ function App() {
             >
               <ul class="navbar-nav me-5">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#Home">
-                    <i class="bi bi-house-door"></i>
-                    Home
+                  <a
+                    class="nav-link nav-link-active"
+                    aria-current="page"
+                    href="#Home"
+                  >
+                    <i class="bi bi-house-door"></i> Home
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#About">
-                    <i class="bi bi-person"></i>
-                    About
+                    <i class="bi bi-person"></i> About
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#Skills">
-                    <i class="bi bi-journal-code"></i>
-                    Skills
+                    <i class="bi bi-journal-code"></i> Skills
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#Portfolio">
-                    <i class="bi bi-journal-album"></i>
-                    Portfolio
+                    <i class="bi bi-journal-album"></i> Portfolio
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="mailto:ramolotoingrid@gmail.com">
-                    <i class="bi bi-envelope"></i>
-                    Contact
+                    <i class="bi bi-envelope"></i> Contact
                   </a>
                 </li>
               </ul>
