@@ -16,21 +16,19 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 16.5px;
   font-family: Helvetica, sans-serif;
-  line-height: 1.6;
-  margin-top: 16px;
+  line-height: 2;
 }
 
 .social-icons {
-  margin-top: 280px;
+  margin-top: 300px;
   align-items: center;
-  font-size: 30px;
 }
 
 .social-icons .bi {
-  font-size: 25px;
   color: black;
+  font-size: 24px;
 }
 
 .btn-contact {
@@ -66,4 +64,17 @@ p {
 .btn-cv-download:hover {
   background-color: black;
   color: white;
+}
+
+.bxl-html5,
+.bxl-css3,
+.bxl-javascript,
+.bxl-react,
+.bxl-bootstrap,
+.bxl-figma {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(107, 109, 110);
+  padding: 5px;
+  font-size: 36px;
 }

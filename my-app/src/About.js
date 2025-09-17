@@ -18,9 +18,19 @@ export default function About() {
                 I'm a junior software developer based in Johannesburg, South
                 Africa. I’m passionate about transforming concepts into elegant
                 code and creating user-friendly, responsive web applications
-                that feel delightful to use.
+                that feel delightful to use. I’m continuously building my skills
+                and excited to grow as part of a collaborative team.
               </p>
-
+              <div className="icons">
+                <span>
+                  <i class="bx bxl-react bx-spin"></i>
+                  <i class="bx bxl-html5 bx-fade-left"></i>
+                  <i class="bx bxl-bootstrap bx-burst"></i>
+                  <i class="bx bxl-css3 bx-tada"></i>
+                  <i class="bx bxl-figma bx-flashing"></i>
+                  <i class="bx bxl-javascript bx-fade-right"></i>
+                </span>
+              </div>
               <span>
                 <button
                   className="btn-contact"
@@ -34,7 +44,13 @@ export default function About() {
             <div className="col-lg-1">
               <ul className="social-icons list-unstyled">
                 <li>
-                  <i className="bi bi-github"></i>
+                  <a
+                    href="https://github.com/KayRams"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="bi bi-github"></i>
+                  </a>
                 </li>
                 <li>
                   <i className="bi bi-linkedin"></i>

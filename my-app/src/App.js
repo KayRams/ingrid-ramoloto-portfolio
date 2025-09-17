@@ -1,18 +1,19 @@
 import React from "react";
 import About from "./About";
 import "./App.css";
+import Skills from "./Skills";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand ms-5" href="#Home">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-2">
+          <div className="container-fluid">
+            <a className="navbar-brand ms-5" href="#Home">
               Ingrid.R
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -20,40 +21,43 @@ function App() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-end"
+              className="collapse navbar-collapse justify-content-end"
               id="navbarNav"
             >
-              <ul class="navbar-nav me-5">
-                <li class="nav-item">
+              <ul className="navbar-nav me-5">
+                <li className="nav-item">
                   <a
-                    class="nav-link nav-link-active"
+                    className="nav-link nav-link active"
                     aria-current="page"
                     href="#Home"
                   >
-                    <i class="bi bi-house-door"></i> Home
+                    <i className="bi bi-house-door"></i> Home
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#About">
-                    <i class="bi bi-person"></i> About
+                <li className="nav-item">
+                  <a className="nav-link" href="#About">
+                    <i className="bi bi-person"></i> About
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Skills">
-                    <i class="bi bi-journal-code"></i> Skills
+                <li className="nav-item">
+                  <a className="nav-link" href="#Skills">
+                    <i className="bi bi-journal-code"></i> Skills
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Portfolio">
-                    <i class="bi bi-journal-album"></i> Portfolio
+                <li className="nav-item">
+                  <a className="nav-link" href="#Portfolio">
+                    <i className="bi bi-journal-album"></i> Portfolio
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mailto:ramolotoingrid@gmail.com">
-                    <i class="bi bi-envelope"></i> Contact
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="mailto:ramolotoingrid@gmail.com"
+                  >
+                    <i className="bi bi-envelope"></i> Contact
                   </a>
                 </li>
               </ul>
@@ -62,6 +66,7 @@ function App() {
         </nav>
       </header>
       <About />
+      <Skills />
     </div>
   );
 }
