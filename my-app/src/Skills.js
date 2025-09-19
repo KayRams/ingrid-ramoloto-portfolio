@@ -20,72 +20,74 @@ export default function Skills() {
                 name="html5"
                 type="logo"
                 animation="tada"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">HTML</span>
+              <span className="skill-title">HTML - Advanced</span>
             </div>
             <div className="col-md-4 skill-item">
               <box-icon
                 name="css3"
                 type="logo"
                 animation="flashing"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">CSS</span>
+              <span className="skill-title">CSS - Advanced</span>
             </div>
             <div className="col-md-4 skill-item">
               <box-icon
                 name="bootstrap"
                 type="logo"
                 animation="fade-right"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">Bootstrap</span>
+              <span className="skill-title">Bootstrap - Intermediate</span>
             </div>
             <div className="col-md-4 skill-item">
               <box-icon
                 name="javascript"
                 type="logo"
                 animation="burst"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">JavaScript</span>
+              <span className="skill-title">JavaScript - Intermediate</span>
             </div>
             <div className="col-md-4 skill-item">
               <box-icon
                 name="react"
                 type="logo"
                 animation="spin"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">React</span>
+              <span className="skill-title">React - Intermediate</span>
             </div>
             <div className="col-md-4 skill-item">
               <box-icon
                 name="cog"
                 type="solid"
                 animation="tada"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">API Integration</span>
+              <span className="skill-title">
+                API Integration - Intermediate
+              </span>
             </div>{" "}
-            <div className="col-md-4 skill-item">
+            <div className="col-md-6 skill-item">
               <box-icon
                 name="git"
                 type="logo"
                 animation="fade-left"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">Git</span>
+              <span className="skill-title">Git - Intermediate</span>
             </div>{" "}
-            <div className="col-md-4 skill-item">
+            <div className="col-md-6 skill-item">
               <box-icon
                 name="github"
                 type="logo"
                 animation="fade-down"
-                color="#c3185d"
+                color="#6b6d6e"
               ></box-icon>
-              <span className="skill-title">GitHub</span>
+              <span className="skill-title">GitHub - Intermediate</span>
             </div>{" "}
           </div>
         </div>

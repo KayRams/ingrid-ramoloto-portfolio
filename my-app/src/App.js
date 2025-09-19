@@ -2,6 +2,8 @@ import React from "react";
 import About from "./About";
 import "./App.css";
 import Skills from "./Skills";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -67,6 +69,8 @@ function App() {
       </header>
       <About />
       <Skills />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }
