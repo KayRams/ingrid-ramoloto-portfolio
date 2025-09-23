@@ -31,6 +31,10 @@ p {
   font-size: 24px;
 }
 
+.social-icons .bi:hover {
+  color: rgb(195, 24, 93);
+}
+
 .btn-contact {
   margin-top: 20px;
   margin-right: 8px;
@@ -42,6 +46,15 @@ p {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0, 0, 0, 0.2;
+}
+
+.btn-contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-contact a:hover {
+  color: black;
 }
 
 .btn-contact:hover {
@@ -79,4 +92,90 @@ p {
   color: rgb(107, 109, 110);
   padding: 5px;
   font-size: 36px;
+}
+
+.bxl-html5:hover,
+.bxl-css3:hover,
+.bxl-javascript:hover,
+.bxl-react:hover,
+.bxl-bootstrap:hover,
+.bxl-figma:hover {
+  color: rgb(195, 24, 93);
+}
+
+@media (max-width: 576px) {
+  .info {
+    margin-top: 60px !important;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left !important;
+  }
+
+  span .btn-contact,
+  .btn-cv-download {
+    margin: 15px auto;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .social-icons .bi {
+    font-size: 25px;
+  }
+
+  .btn-contact {
+    font-size: 14px;
+    padding: 10px 18px;
+    margin-right: 10px;
+  }
+
+  .btn-cv-download {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .bxl-html5,
+  .bxl-css3,
+  .bxl-javascript,
+  .bxl-react,
+  .bxl-bootstrap,
+  .bxl-figma {
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 3px;
+  }
+
+  .icons {
+    text-align: center !important;
+  }
+
+  .home__img {
+    margin-top: 30px !important;
+    width: 260px !important;
+    height: 260px !important;
+  }
 }

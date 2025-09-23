@@ -3,9 +3,20 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact">
-      <h2>LET'S GET IN TOUCH</h2>
-      <span></span>
-    </div>
+    <section id="Contact" className="contact-section">
+      <div className="contact">
+        <h2>LET'S GET IN TOUCH</h2>
+        <div className="email-link">
+          <a href="mailto:ramolotoingrid@gmail.com">ramolotoingrid@gmail.com</a>
+        </div>
+
+        <div className="contact-social">
+          <i className="bi bi-linkedin"></i>
+          <a href="https://github.com/KayRams" target="_blank" rel="noreferrer">
+            <i className="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }

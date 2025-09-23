@@ -4,6 +4,7 @@ import "./App.css";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -50,15 +51,12 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Portfolio">
+                  <a className="nav-link" href="#My Portfolio">
                     <i className="bi bi-journal-album"></i> Portfolio
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="mailto:ramolotoingrid@gmail.com"
-                  >
+                  <a className="nav-link" href="#Contact">
                     <i className="bi bi-envelope"></i> Contact
                   </a>
                 </li>
@@ -71,6 +69,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
+      <Footer />
     </div>
   );
 }

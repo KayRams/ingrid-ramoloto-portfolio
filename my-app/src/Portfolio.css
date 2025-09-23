@@ -1,15 +1,28 @@
 .portfolio {
   margin-top: 120px;
 }
+
 h2 {
   color: black;
   text-align: center;
 }
 
+p {
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6;
+  margin-top: 16px;
+  text-align: center;
+}
+
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  max-width: 45%;
+  margin: auto;
+  padding-top: 0px !important;
 }
 
 .carousel {
@@ -18,7 +31,30 @@ h2 {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+
 .carousel-item img {
   height: auto;
   border-radius: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .portfolio {
+    margin-top: 60px;
+    padding: 10px;
+  }
+
+  .carousel {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
 }

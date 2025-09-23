@@ -32,11 +32,8 @@ export default function About() {
                 </span>
               </div>
               <span>
-                <button
-                  className="btn-contact"
-                  href="mailto:ramolotoingrid@gmail.com"
-                >
-                  Contact me
+                <button className="btn-contact">
+                  <a href="mailto:ramolotoingrid@gmail.com">Contact me</a>
                 </button>
                 <button className="btn-cv-download">Download CV</button>
               </span>
