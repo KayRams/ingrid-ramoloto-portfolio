@@ -9,9 +9,7 @@ export default function Skills() {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2 className="section-title">Skills</h2>
-              <p className="subtitle">
-                Here are some of the technologies I've been working with:
-              </p>
+              <h4>Here are some of the technologies I've been working with:</h4>
             </div>
           </div>
           <div className="row skills-list">

@@ -13,7 +13,7 @@ export default function Portfolio() {
     <section id="My Portfolio" className="portfolio-section">
       <div className="portfolio">
         <h2>My Portfolio</h2>
-        <p>Here are some projects I've been working on:</p>
+        <h5>Here are some projects I've been working on:</h5>
         <div
           id="carouselExampleDarkAutoplaying"
           class="carousel carousel-dark slide"
@@ -33,7 +33,7 @@ export default function Portfolio() {
                 />
               </a>
               <div class="carousel-caption d-none d-md-block">
-                <p>Built with React</p>
+                <h6>Built with React</h6>
                 <button className="btn btn-dark">
                   <a
                     href="https://reactdictionaryappjc.netlify.app/"
@@ -58,7 +58,7 @@ export default function Portfolio() {
                 />
               </a>
               <div class="carousel-caption d-none d-md-block">
-                <p>Built with React</p>
+                <h6>Built with React</h6>
                 <button className="btn btn-dark">
                   <a
                     href="https://react-weather-app19.netlify.app/"
@@ -83,7 +83,7 @@ export default function Portfolio() {
                 />
               </a>
               <div class="carousel-caption d-none d-md-block">
-                <p>Built with Html, Css and Javascript</p>
+                <h6>Built with Html, Css and Javascript</h6>
                 <button className="btn btn-dark">
                   <a
                     href="https://recipe-generator-ai-0903.netlify.app/"
@@ -108,7 +108,7 @@ export default function Portfolio() {
                 />
               </a>
               <div class="carousel-caption d-none d-md-block">
-                <p>Built with Html, Css and Vanilla Javascript</p>
+                <h6>Built with Html, Css and Vanilla Javascript</h6>
                 <button className="btn btn-dark">
                   <a
                     href="https://rain-354d97.netlify.app/"
@@ -133,7 +133,7 @@ export default function Portfolio() {
                 />
               </a>
               <div class="carousel-caption d-none d-md-block">
-                <p>Built with Html, Css and Bootstrap</p>
+                <h6>Built with Html, Css and Bootstrap</h6>
                 <button className="btn btn-dark">
                   <a
                     href="https://inquisitive-sawine-bc78b5.netlify.app/"
@@ -158,7 +158,7 @@ export default function Portfolio() {
                 />
               </a>
               <div class="carousel-caption d-none d-md-block">
-                <p>Built with Html and Css</p>
+                <h6>Built with Html and Css</h6>
                 <button className="btn btn-dark">
                   <a
                     href="https://mountainbikingtrails.netlify.app/"
