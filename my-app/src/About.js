@@ -50,7 +50,13 @@ export default function About() {
                   </a>
                 </li>
                 <li>
-                  <i className="bi bi-linkedin"></i>
+                  <a
+                    href="https://www.linkedin.com/in/ingrid-ramoloto/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="bi bi-linkedin"></i>
+                  </a>
                 </li>
               </ul>
             </div>
