@@ -16,10 +16,11 @@ export default function About() {
               <h3>Front-end Developer</h3>
               <p>
                 I'm a junior software developer based in Johannesburg, South
-                Africa. I’m passionate about transforming concepts into elegant
-                code and creating user-friendly, responsive web applications
-                that feel delightful to use. I’m continuously building my skills
-                and excited to grow as part of a collaborative team.
+                Africa. I love turning ideas into clean, responsive web
+                applications that are simple and enjoyable to use. I’m
+                continuously improving my skills in React and JavaScript. I'm
+                eager to grow within a collaborative team, where I can keep
+                learning and contribute to real-world projects.
               </p>
               <div className="icons">
                 <span>
