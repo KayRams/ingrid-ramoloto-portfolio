@@ -33,10 +33,17 @@ export default function About() {
                 </span>
               </div>
               <span>
-                <button className="btn-contact">
-                  <a href="mailto:ramolotoingrid@gmail.com">Contact me</a>
-                </button>
-                <button className="btn-cv-download">Download CV</button>
+                <a href="mailto:ramolotoingrid@gmail.com">
+                  <button className="btn-contact">Contact me</button>
+                </a>
+
+                <a
+                  href="https://drive.google.com/file/d/1nWR18UedgKD7Bf4EM-ztSflgXUmHorNv/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-cv-download">Download CV</button>
+                </a>
               </span>
             </div>
             <div className="col-lg-1">

@@ -49,15 +49,6 @@ p {
   box-shadow: 0, 0, 0, 0.2;
 }
 
-.btn-contact a {
-  text-decoration: none;
-  color: white;
-}
-
-.btn-contact a:hover {
-  color: black;
-}
-
 .btn-contact:hover {
   background-color: white;
   color: black;
